@@ -21,6 +21,8 @@ stub = modal.Stub()
     
     
     gpu="any",
+    # 3時間でタイムアウト
+    timeout=60*60*3,
 )
 async def run_stable_diffusion():
     
